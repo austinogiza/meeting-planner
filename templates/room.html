@@ -1,0 +1,17 @@
+
+{% extends 'base.html' %}
+
+{% block title %}
+Room List
+{% endblock %}
+
+
+{% block content %}
+
+{% for room in room %}
+
+<li>{{room}}</li>
+
+{% endfor %}
+
+{% endblock%}

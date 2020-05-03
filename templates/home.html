@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Meetings Home
+{% endblock %}
+
+{% block content %}
+<h1>Hello Welcome To MeetingsCom</h1>
+{% for meetings in meetings %}
+There are
+<li><a href="{% url 'detail' meetings.id %}">{{ meetings.title }}</a></li>
+
+{% endfor %}
+
+<a href="{% url 'room' %}">Rooms List</a>
+{% endblock%}

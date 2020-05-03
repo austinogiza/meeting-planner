@@ -1,0 +1,15 @@
+body{
+color: cornflowerblue;
+background:floralwhite;
+}
+
+li{
+list-style-type: none;
+}
+
+a {
+color: cornflowerblue;
+padding: 10px 12px;
+margin: 20px;
+text-decoration:none;
+}
